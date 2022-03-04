@@ -1,0 +1,37 @@
+- [[Business Automation]]
+	- [[Salesforce Flow]]
+		- [[Flow Builder]]
+			- [[Flow]]
+				- [[Flow Interviews]]
+			-
+- [[Flow Concepts]]
+- Flow Limits and Considerations #TODO
+	- [[Flow Usage-Based Entitlements]]
+	- [[General Flow Limits]]
+	- [[Per-Transaction Flow Limits]]
+		- Salesforce strictly enforces limits to ensure that any runaway flows don’t monopolize shared resources in the multitenant environment. #flowLimit
+			- If an element causes the transaction to exceed governor limits, the system rolls back the entire transaction. The transaction rolls back even if the element has a defined fault connector path.
+	- Flow Builder Considerations
+		-
+	- Salesforce Data Considerations for Flows
+	- Salesforce Feature Considerations for Flows
+		- Security Considerations for Flows
+			- [[Flow Interviews]]
+			- Shield Platform Encryption
+				- You can't filter or sort records by encrypted fields for the following elements and resources.
+					- [[Update Records]]
+					- [[Delete Records]]
+					- [[Get Records]]
+					- [[Record Choice Set]]
+		- Translation Considerations for Flows
+		- External Object Considerations for Flows
+		- Lightning Component Considerations for Flows
+	-
+-
+- [[Migrate to Flow (Beta)]]
+- [[Flow trigger explorer]]
+-
+-
+- 易混淆的概念 #学习提示
+	- User Flow is a graph that tracks a user’s navigation throughout the Experience Cloud site.
+-

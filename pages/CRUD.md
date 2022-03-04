@@ -1,0 +1,5 @@
+- 一般指数据库中对数据的C增D删U改R查
+	- C Create
+	- R Read （Get）
+	- U Update
+	- D Delete

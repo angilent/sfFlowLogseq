@@ -1,0 +1,1 @@
+- Store a value that can be changed throughout the flow.

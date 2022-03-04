@@ -1,0 +1,3 @@
+- If you paused a flow interview and don’t plan to resume it, delete it. By removing unnecessary interviews, you make sure that your pending list includes only interviews that you still plan to act on.
+-
+- [[Pause a Flow Interview]]

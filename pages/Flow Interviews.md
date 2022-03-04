@@ -1,0 +1,23 @@
+- 定义 #card
+	- A flow interview is a running instance of a flow.
+- 对 flow interviews 可以执行的操作 #card
+	- [[Delete a Flow Interview]]
+	- [[Pause a Flow Interview]]
+	- [[Resume a Flow Interview]]
+- When a user session expires, in-progress flow interviews are interrupted and can’t be resumed. If the flow executed actions, such as a Create Records or Post to Chatter element, those actions aren’t rolled back. But other progress through the interview, such as what the user entered on the screen, is lost. #flowLimit
+	- [[user session expires]] 相关建议
+		- Set your session timeout settings to log out users after an appropriate period of time.
+		- Encourage your users to pay attention during interviews for alerts about their sessions expiring soon.
+		- Remind users to avoid running flows during release upgrades. A typical upgrade takes about 5 minutes.
+	- Paused or waiting flow interviews aren’t affected by expired user sessions.
+		- [[Pause]]  ，还有什么会产生 waiting flow interviews ？ #我的疑问
+-
+- https://help.salesforce.com/s/articleView?id=sf.flow_interviews.htm&type=5 #ref
+-
+- flow 使用建议 #学习提示
+	- 可以使用浏览器的前进后退按钮吗？ #card
+		- Don't use your browser's Back or Forward buttons to navigate through a flow. Doing so can result in inconsistent data between the flow and Salesforce.
+	- Flow 可以有多个 version 吗？ #card
+		- A single flow can have up to 50 different versions. When you run a flow, you see the active version, but your admin could have a more recent version. #flowLimit
+-
+- 这个Interviews 可真是愁人？ 面试，采访？ 为什么不能就叫 flow instance 呢？ #我的疑问

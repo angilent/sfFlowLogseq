@@ -1,0 +1,1 @@
+- lets you enter values for the flow’s input variables and display debug details while running the flow. That way, you can verify how the flow processes data.

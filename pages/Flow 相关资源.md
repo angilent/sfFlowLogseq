@@ -1,0 +1,12 @@
+-
+- [Influencers and Subflows – Salesforce Flow Tips Newsletter](https://salesforcebreak.com/2022/01/23/influencers-and-subflows-salesforce-flow-tips-newsletter/)
+-
+- [[LIVE: Salesforce Flow Tips]]
+-
+- https://www.udemy.com/course/salesforce-flow
+	- [[flow course ]]
+	- 为什么现在必须学习flow？ #whyflow
+		- Salesforce在Dreamforce 2021中宣布，他们将退出工作流规则和流程构建器。他们加快了Flow功能的开发，并推荐这个工具作为未来的单一低代码自动化工具。
+		- Flow技能对于管理员将其技能扩展到开发领域至关重要。管理员的工作岗位经常要求有不同等级的开发技能。仅仅知道设置中的开关和转盘在哪里，已经不足以胜任Salesforce的工作。
+	- Flows are powerful Low-code automation tools. Everybody can apply custom business logic to automate tasks on Salesforce using flows. #whatisflow
+-

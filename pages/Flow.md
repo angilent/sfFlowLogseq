@@ -1,0 +1,3 @@
+- 定义 #card
+	- Flow是Salesforce Flow的一部分，它在您的Salesforce组织或外部系统中收集数据并执行操作。
+	- A flow is the part of Salesforce Flow that collects data and performs actions in your Salesforce org or an external system.

@@ -1,0 +1,1 @@
+- Any screen component that you add to a flow is available as a resource. The resource value depends on the type of screen component. The value for a Text component is what the user enters. The value for a Picklist component is the stored value of the choice that the user selects. The value for a Display Text component is the text that’s displayed to the user.

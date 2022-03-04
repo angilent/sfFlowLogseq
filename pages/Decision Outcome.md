@@ -1,0 +1,12 @@
+- When you add a Decision element to a flow, its outcomes are available as Boolean resources. If an outcome path has already been executed in the flow interview, the resource’s value is True.
+- 当你把决策元素添加到流程中时，它的结果可以作为布尔资源使用。如果一个结果路径已经在流程访谈中被执行，那么该资源的值就是True。
+-
+- 字段
+	-
+-
+- {{embed [[Default Outcome]]}}
+-
+	-
+-
+- ---
+- [[Decision]]

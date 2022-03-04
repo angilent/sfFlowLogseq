@@ -1,0 +1,1 @@
+- Create a choice option to use in a screen component, such as a Radio Buttons or Multi-Select Picklist component.

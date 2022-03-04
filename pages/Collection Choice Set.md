@@ -1,0 +1,1 @@
+- Generate a set of choices by using an existing collection of records.

@@ -1,0 +1,5 @@
+- 定义 #card
+	- The running user of a flow is the user that launched the flow. The running user determines what a flow that runs in user context can do with Salesforce data.
+- ----
+- [[user context]]
+-

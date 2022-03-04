@@ -1,0 +1,4 @@
+- The toolbox contains the elements and resources you use to build your flow. From the Manager tab, create resources, such as variables, stages, and choices, to use in your flow. Or view a list of all elements and resources that you’ve added to the flow.
+- [[Flow Elements]] [[Flow Resource]]
+-
+- 这里说的 stages 是类似 oppty 的stages 自带？ 为什么要单独提一下？ #我的疑问

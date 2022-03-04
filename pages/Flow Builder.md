@@ -1,0 +1,9 @@
+- a point-and-click tool for building flows.
+- 用来创建 [[Flow]] 的图形化工具
+- the Land of Flow: Flow Builder. [hyref](https://hyp.is/ZWZ61Jq2EeyimocqIfhzaQ/trailhead.salesforce.com/en/content/learn/modules/flow-basics/get-started-with-flows)
+-
+- 相关界面操作元素
+	- [[Toolbox]]
+	- [[Canvas]]
+	- [[Button Bar]]
+		- Run and Debug.

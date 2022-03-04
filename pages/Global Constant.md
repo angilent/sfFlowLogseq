@@ -1,0 +1,1 @@
+- Fixed, system-provided values, such as EmptyString, True, and False.
