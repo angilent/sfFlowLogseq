@@ -6,11 +6,13 @@
 			-
 - [[Flow Concepts]]
 - Flow Limits and Considerations #TODO
+  id:: 62215c99-b7bc-4bae-b9f3-8404615f88ab
 	- [[Flow Usage-Based Entitlements]]
 	- [[General Flow Limits]]
 	- [[Per-Transaction Flow Limits]]
 		- Salesforce strictly enforces limits to ensure that any runaway flows don’t monopolize shared resources in the multitenant environment. #flowLimit
 			- If an element causes the transaction to exceed governor limits, the system rolls back the entire transaction. The transaction rolls back even if the element has a defined fault connector path.
+			  id:: 62215c99-d827-4d52-a0f6-6f06addbf7fa
 	- Flow Builder Considerations
 		-
 	- Salesforce Data Considerations for Flows
@@ -34,4 +36,5 @@
 -
 - 易混淆的概念 #学习提示
 	- User Flow is a graph that tracks a user’s navigation throughout the Experience Cloud site.
+	- 这个User Flow 是用户网站访问路径的跟踪
 -

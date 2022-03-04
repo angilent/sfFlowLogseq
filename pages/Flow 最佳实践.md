@@ -1,0 +1,5 @@
+- [Flow Best Practice](https://help.salesforce.com/s/articleView?id=sf.flow_prep_bestpractices.htm&type=5)
+-
+- Plan out your flow before you start building.
+	- Write or draw out all the details of your business process. That way, you have a clear idea of what information you need, where you’re getting that information from, and what logic and actions to perform. Doing so makes building the corresponding flow much easier.
+	-

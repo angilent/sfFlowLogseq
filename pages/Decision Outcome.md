@@ -2,6 +2,16 @@
 - 当你把决策元素添加到流程中时，它的结果可以作为布尔资源使用。如果一个结果路径已经在流程访谈中被执行，那么该资源的值就是True。
 -
 - 字段
+collapsed:: true
+	- Label
+		- Identifies the connector for this outcome on the canvas.
+	- Outcome API Name
+		- The requirement for uniqueness applies only to elements within the current flow. Two elements can have the same API name, provided they're used in different flows. An API name can include underscores and alphanumeric characters without spaces. It must begin with a letter and can’t end with an underscore. It also can’t have two consecutive underscores.
+	- Condition Requirements to Execute Outcome 执行条件
+		- Determines whether the flow takes this outcome’s path. Sets logic and conditions for each outcome that determine if the flow follows its path.
+	- When to Execute Outcome 何时执行
+		- Available on record-triggered flows. Determines whether this outcome’s path is taken, based on whether the triggering record is updated to meet the condition requirements. [[Record Triggered Flow]]
+			- For example, the opportunity update that triggered the flow to run changed its stage to Closed Won from any value that isn’t Closed Won. #flowUserCase
 	-
 -
 - {{embed [[Default Outcome]]}}

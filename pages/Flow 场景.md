@@ -16,3 +16,9 @@ tags:: [[flowUserCase]]
 - a practice in place where your salespeople should always, always, create a work order after a deal closes. #flowUserCase
 -
 -
+- 使用 [[Decision]] 的场景
+	- To give customers a return shipping address or instructions on how to resolve the problem when an item is determined to be faulty.
+	- To offer a customer a loan based on the results of a credit scoring formula.
+	- To inform sales leaders when an opportunity’s stage is changed to Closed Won.
+		- Configure your flow so that it does different things based on what a user selects for a Picklist screen component. To do so, add a decision after the screen to create the branches of the flow based on the choices available in the picklist. Then you can represent each choice in your decision and connect it to a branch of your flow.
+-
